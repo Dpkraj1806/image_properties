@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image properties</title>
+</head>
+<body>
+    <div>
+        <label for="brightness">Brightness : </label><input type="range" id="brightness" min="-30" max="30" value="0" step="1"><br>
+        <label for="contrast">Contrast   : </label><input type="range" id="contrast" min="-30" max="30" value="0" step="1"><br>
+        <label for="white_point">White Point: </label><input type="range" id="white_point" min="-30" max="30" value="0" step="1"><br>
+        <label for="highlights">Highlights : </label><input type="range" id="highlights" min="-30" max="30" value="0" step="1"><br>
+        <label for="shadows">Shadows    : </label><input type="range" id="shadows" min="-30" max="30" value="0" step="1"><br>
+        <button id="btn">Add</button>
+    </div>
+    <div>
+        <textarea name="property_value" id="property_value" cols="20" rows="5" value=""></textarea>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
